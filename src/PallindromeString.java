@@ -15,7 +15,7 @@ public class PallindromeString {
 
     public Boolean Pallindrome(String string, int l) {
         String reverse = "";
-        for (int i = l; i > 0; i--) {
+        for (int i = l - 1; i >= 0; i--) {
             char ch = string.charAt(i);
             reverse = reverse + ch;
         }
